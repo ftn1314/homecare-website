@@ -1,0 +1,262 @@
+body{
+    color: #666666;
+    font-size: 14px;
+    font-family:poppins;
+    line-height: 1.80857;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 18px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5 {
+    font-size: 14px
+}
+
+h6 {
+    font-size: 13px
+}
+p {
+    margin: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+a {
+    color: #222222;
+    text-decoration: none;
+}
+.header-section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/banner-bg.png);
+    height: auto;
+    background-size: 140%;
+    padding: 10px 0px 25px 0px;
+    background-repeat: no-repeat;
+}
+.logo{
+    margin-top: 10px;
+    width:42%;
+    float: left;
+}
+.taskbar{
+    float: right;
+    margin-right: 20px;
+}
+.taskbar li{
+    display: inline-block;
+    margin: 0px 20px;
+    line-height: 0px;
+}
+.taskbar a.active,.taskbar a:hover{
+    background-color: #15e4d0;
+    transition: 0.5s;
+}
+.banner-section {
+    width: 100%;
+    float: left;
+    margin-bottom: 150px;
+
+}
+.header-text{
+    width: 100%;
+    float: left;
+    color: #15e4d0;
+    font-weight: 900;
+    line-height: 50px;
+    padding-top: 50px;
+    padding-left: 80px;
+    font-size: 40px;
+}
+.header-para{
+    width: 100%;
+    float: left;
+    color: #252525;
+    margin: 0px;
+    font-size: 15px;
+    padding-left: 80px;
+}
+.header-button{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.contact-button{
+    width: 100%;
+    font-size: 16px;
+    color: #f6f8f8;
+    background-color: #4bc5b8;
+    text-align: center;
+    padding: 13px 0px;
+    margin-left: 80px;
+}
+.get-button{
+    width: 100%;
+    font-size: 16px;
+    color: #f6f8f8;
+    background-color: #252525;
+    text-align: center;
+    padding: 13px 0px;
+    margin-left: 15px;
+}
+.get-button:hover{
+    color: #f6f8f8;
+    background-color: #4bc5b8;
+    transition: 00.5s;
+}
+.image-1{
+    width: 40%;
+    float:right;
+    padding-bottom: 40px;
+    
+}
+.copyright-section{
+    width: 100%;
+    float: left;
+    background-color: #252525;
+    height: auto;
+}
+.copy-right-text{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    margin-left: 0px;
+    color:#fff ;
+    text-align: center;
+
+}
+.footer-section{
+    width: 100%;
+    background-color: #252525;
+    height: 800px;
+    padding-bottom: 40px;
+    position: relative;
+}
+.footer-logo{
+    width: 100%;
+    float: left;
+    padding: 0px 0px 30px 0px;
+}
+.footer-heading{
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #ffffff;
+    padding-bottom: 12px;
+}
+.icon{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #d6d6d6;
+    padding-bottom: 10px;
+}
+.padding-left{
+    padding-left: 15px;
+}
+.doctors-para{
+    width: 90%;
+    color: #d6d6d6;
+    font-size: 16px;
+    margin-left: 0px;
+}
+.usefullinks-para{
+    width: 50%;
+    color: #d6d6d6;
+    font-size: 16px;
+    margin-left: 0px;
+}
+.email{
+    
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 7px 10px;
+    margin-top: 10px;
+    border: 1px solid #cfcfd0;
+}
+.subscribe-button{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.subscribe-button a{
+    width: 10%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #15e4d0;
+    text-align: center;
+    padding: 7px 0px;
+}
+.social-media-icon{
+    width: 100%;
+    float: left;
+}
+.social-media-icon ul{
+    margin: 0px;
+    padding: 0px;
+}
+.social-media-icon li{
+    float: left;
+    padding-right: 10px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.health-section{
+    width: 98%;
+    float: left;
+    padding-bottom: 60px;
+}
+.health-text{
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #252525;
+    font-weight: bolder;
+}
+.health-para{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #252525;
+    margin: 0px;
+}
+.health-image{
+    width: 100%;
+    position: relative;
+}
+.main{
+    width: 50%;
+   
+    
+    position: relative; 
+}
+
+.main:hover {
+    background-color: rgba(27, 236, 222, 0.5);
+    
+}
+
+.image {
+    
+    display: block;
+    width: 50%;
+    height: auto;
+    transition: .5s ease;
+    
+}
