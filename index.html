@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../homecare/css/sample.css">
+    <link rel="stylesheet" href="../homecare-website/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
 <body>
     <div>
         <div class="header-section">
-            <nav>
+            <nav class="navbar">
                 <div class="logo">
                     <a href="index.html">
                         <img src="../homecare/images/logo.png">
@@ -31,62 +31,95 @@
                 </div>
             </nav>
             <div class="banner-section">
-                <div>
-                    <h1 class="header-text">health<br>
-                    <span style="color: white;">care</span></h1>
-                    <p class="header-para">There are many variations of passages of Lorem Ipsum</p>
-                </div>
-                <div class="header-button">
-                    <a class="contact-button" href="contact button">contact now</a>
-                    <a class="get-button"  href="get button">get a quote</a>
-                </div>
-                <div ">
-                    <img class="image-1" src="../homecare/images/img-1.png">
+                <div class="container" >
+                    <div class="row">
+                        <div class="col-1">
+                            <h1 class="header-text">health<br>
+                            <span style="color: white;">care</span></h1>
+                            <p class="header-para">There are many variations of passages of Lorem Ipsum</p>
+                            <div class="header-button">
+                                <div class="contact-button">
+                                    <a  href="contact button">contact now</a>
+                                </div>
+                                <div class="get-button" >
+                                    <a  href="get button">get a quote</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-1">
+                            <img class="image-1" src="../homecare/images/img-1.png">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="health-section">
-            <div>
-                <h1 class="health-text">Best of health care for you</h1>
-                 <p class="health-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>
-            <div class="health-image">
-                <div class="main">
-                    <img class="img-2" src="../homecare/images/img-2.png"  >
+            <div class="container">
+                <div>
+                    <h1 class="health-text">Best of health care for you</h1>
+                     <p class="health-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
-                <div class="middle">
-                    <img class="img-3" src="../homecare/images/img-3.png" style="width:40%;">
+                <div class="health-section">
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="main">
+                                <img class="picture" src="../homecare/images/img-2.png"  >
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="main">
+                                <img class="picture" src="../homecare/images/img-3.png" style="width: 98%";>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
-            </div>
-            <div>
-                 <div><a href="#">read more<span><img src="../homecare/images/right-arrow.png"></span></a></div>
+                <div class="read-more-button">
+                     <div><a href="#">read more<span><img src="../homecare/images/right-arrow.png"></span></a></div>
+                </div>
             </div>
         </div>
-            <div>
-                <h1>Knowledge of center</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <div class="knowledge-section">
+            <div class="container">
+                <h1 class="knowledge-text">Knowledge of center</h1>
+                <p class="knowledge-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
-       </div>
-       <div>
-            <div>
-                <h1>Why choose 24hr home care</h1>
-                <p>labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>
+        <div class="news-section">
+            <div class="container">
+                <h1 class="knowledge-text">Why choose 24hr home care</h1>
+                <p class="knowledge-para">labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <div class="news-section-2">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="box">
+                                <div class="icon-1">
+                                    <img src="../homecare/images/icon-2.png">
+                                </div>
+                                <h4 class="box-text">daily care experts</h4>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="box-main">
+                                <div class="icon-1">
+                                    <img src="../homecare/images/icon-3.png">
+                                </div>
+                                <h4 class="box-text-1">available 24/7</h4>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="box">
+                                <div class="icon-1">
+                                    <img src="../homecare/images/icon-4.png">
+                                </div>
+                                <h4 class="box-text-1">balanced care</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <div>
-                    <img src="../homecare/images/icon-2.png">
-                    <h3>daily care experts</h3>
-                </div>
-                <div>
-                    <img src="../homecare/images/icon-3.png">
-                    <h3>available 24/7</h3>
-                </div>
-                <div>
-                    <img src="../homecare/images/icon-4.png">
-                    <h3>balanced care</h3>
-                </div>
-            </div>
+            
             <div>
                <a href="#"> get a quote<span><img src="../homecare/images/right-arrow.png"></span></a>
             </div>
