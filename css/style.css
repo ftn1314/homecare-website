@@ -53,26 +53,8 @@ a {
     width:auto;
     float: left;
 }
-.navbar{
-    padding: 8px 15px;
-    display: flex;
-    flex-basis: auto;
-    flex-direction: row;
-    background-color: #222222;
-}
-.navbar.taskbar{
-    
-    float: right;
-    align-items: center;
-    margin-right: 10px;
-}
-.taskbar li{
-    display: inline-block;
-    margin: 0px 20px;
-    line-height: 0px;
-}
-.taskbar a.active,.taskbar a:hover{
-    background-color: #15e4d0;
+ .navbar-nav .nav-item .nav-link:hover{
+    color: #15e4d0;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -82,28 +64,8 @@ a {
     padding-bottom: 105px;
 
 }
-.container{
-    max-width: 720px;
-    position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.row{
-    display: flex;
-    flex-direction: row;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-.col-1 {
-    flex: 0 0 50%;
-    position: relative;
-    width: 100%;
-    line-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
+
+
 .header-text{
     width: 100%;
     float: left;
@@ -121,11 +83,13 @@ a {
     color: #252525;
     margin: 0px;
     font-size: 16px;
+    padding-top: 10px;
 }
 .header-button{
     width: 100%;
     float: left;
     margin-top: 30px;
+    text-decoration: none;
 }
 .contact-button  {
     width: 135px;
@@ -139,6 +103,7 @@ a {
     background-color: #4bc5b8;
     text-align: center;
     padding: 14px 0;
+    text-decoration: none;
 }
 .get-button {
     width: 135px;
@@ -153,6 +118,7 @@ a {
     background-color: #252525;
     text-align: center;
     padding: 14px 0;
+    text-decoration: none;
     
 }
 .get-button :hover{
@@ -168,99 +134,6 @@ img{
 .image-1{
     padding-top: 30px;
     width: 80%;
-}
-.copyright-section{
-    width: 100%;
-    float: left;
-    background-color: #252525;
-    height: auto;
-}
-.copy-right-text{
-    width: 100%;
-    float: left;
-    font-size: 18px;
-    margin-left: 0px;
-    color:#fff ;
-    text-align: center;
-
-}
-.footer-section{
-    width: 100%;
-    background-color: #252525;
-    height: 800px;
-    padding-bottom: 40px;
-    position: relative;
-}
-.footer-logo{
-    width: 100%;
-    float: left;
-    padding: 0px 0px 30px 0px;
-}
-.footer-heading{
-    width: 100%;
-    float: left;
-    font-size: 24px;
-    color: #ffffff;
-    padding-bottom: 12px;
-}
-.icon{
-    width: 100%;
-    float: left;
-    font-size: 16px;
-    color: #d6d6d6;
-    padding-bottom: 10px;
-}
-.padding-left{
-    padding-left: 15px;
-}
-.doctors-para{
-    width: 90%;
-    color: #d6d6d6;
-    font-size: 16px;
-    margin-left: 0px;
-}
-.usefullinks-para{
-    width: 50%;
-    color: #d6d6d6;
-    font-size: 16px;
-    margin-left: 0px;
-}
-.email{
-    
-    float: left;
-    font-size: 18px;
-    color: #ffffff;
-    padding: 7px 10px;
-    margin-top: 10px;
-    border: 1px solid #cfcfd0;
-}
-.subscribe-button{
-    width: 100%;
-    float: left;
-    margin-top: 20px;
-}
-.subscribe-button a{
-    width: 10%;
-    float: left;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #15e4d0;
-    text-align: center;
-    padding: 7px 0px;
-}
-.social-media-icon{
-    width: 100%;
-    float: left;
-}
-.social-media-icon ul{
-    margin: 0px;
-    padding: 0px;
-}
-.social-media-icon li{
-    float: left;
-    padding-right: 10px;
-    padding-top: 20px;
-    text-decoration: none;
 }
 .health-section{
     width: 98%;
@@ -281,15 +154,9 @@ img{
     font-size: 16px;
     color: #252525;
     margin: 0px;
+    padding-top: 10px;
 }
-.col-2{
-    flex: 0 0 58.3%;
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
+
 .main{
     width: 100%;
     margin: 40px 0px 0px 5px;
@@ -303,15 +170,7 @@ img{
     transition: .5s ease;
     backface-visibility: hidden;
 }
-.col-3{
-    max-width: 41.6%;
-    flex: 0 0 41.6%;
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
+
 .health-image{
     width: 100%;
     position: relative;
@@ -335,6 +194,7 @@ img{
     background-color: #1becde;
     padding: 10px 0px;
     text-align: center;
+    text-decoration: none;
 }
 .read-more-button a:hover{
     background-color: #252525;
@@ -346,7 +206,7 @@ img{
     background-image: url(../images/knowledge-bg.png);
     background-size: cover;
     height: auto;
-    background-repeat: no-repeat;
+    background-repeat:;
     padding: 100px 0px;
 }
 .knowledge-text{
@@ -354,7 +214,7 @@ img{
     float: left;
     font-size: 36px;
     color: #ffffff;
-    font-weight: bold;
+    font-weight:bolder;
     margin: 0px;
     padding-bottom: 10px;
 
@@ -394,6 +254,11 @@ img{
     margin-bottom: 30px;
     border-radius: 15px;
 }
+.box:hover{
+    color: #f6f8f8;
+    background-color:#1becde;
+    transition: 00.5s;
+}
 .box-main{
     width: 100%;
     float: left;
@@ -430,4 +295,268 @@ img{
     color: #fff;
     line-height: 30px;
     padding-bottom: 15px;
+}
+.get-quote-btn{
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+.get-quote-btn a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #1becde;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+}
+.get-quote-btn a:hover{
+    color: #f6f8f8;
+    background-color:#252525;
+    transition: 00.5s;
+}
+.contact-section{
+    width: 100%;
+    float: left;
+    background-image: url(../images/contact-bg.png);
+    background-repeat: no-repeat;
+    padding:90px 0 ;
+}
+.contact-title{
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    color: #030202;
+}
+.contact-body{
+    width: 100%;
+    float: left;
+}
+.icon-main{
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+}
+.icon-7{
+    width: 100%;
+    padding-right: 20px;
+    float: left;
+    display: flex;
+    font-size: 30px;
+}
+.diabetes-text{
+    width: 100%;
+    float: left;
+    color: #040101;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    padding-left: 30px;
+}
+.contact-box{
+    width: 100%;
+    float: left;
+    background-color: #f1fafb;
+    height: auto;
+    padding: 30px;
+    margin-top: 30px;
+}
+.book-text{
+    font-size: 30px;
+    width: 100%;
+    float: left;
+    color: #252525;
+    text-align: center;
+    font-weight: 500;
+}
+.email-text{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #bebebe;
+    background-color: #ffffff;
+    padding: 5px 15px;
+    margin-top:30px ;
+    border: 0ch;
+}
+.massage-bt {
+    width: 100%;
+    float: left;
+    color: #bebebe;
+    height: 110px;
+    font-size: 18px;
+    padding: 36px 20px 10px 20px;
+    background-color: #ffffff;
+    border: 0px;
+    margin-top: 30px;
+}
+.send-btn{
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+.send-btn a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #1becde;
+    text-align: center;
+    padding: 14px 0;
+    padding-top: px;
+    text-decoration: none;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+.send-btn a:hover{
+    color: #f6f8f8;
+    background-color:#252525;
+    transition: 00.5s;
+}
+.client-section{
+    width: 100%;
+    float: left;
+    padding:90px 0px ;
+}
+.client-text{
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    color: #111010;
+}
+.client-para{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #444443;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 60px;
+}
+.client-img{
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.distarcted-text{
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #080808;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.distracted-para{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #444443;
+    margin: 0px;
+}
+.footer-section{
+    width: 100%;
+    float: left;
+    padding-top:90px ;
+    padding-bottom: 90px;
+    background-color: #252525;
+    height: auto;
+    padding-bottom: 40px;
+    position: relative;
+}
+.footer-logo{
+    width: 100%;
+    float: left;
+    padding: 0px 0px 30px 0px;
+}
+.footer-heading{
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+.icon{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #d6d6d6;
+    padding-bottom: 10px;
+}
+.padding-left{
+    padding-left: 15px;
+}
+.doctors-para{
+    width: 90%;
+    color: #d6d6d6;
+    font-size: 18px;
+    margin-left: 0px;
+    font-weight: 400;
+}
+.usefullinks-para{
+    width: 50%;
+    color: #d6d6d6;
+    font-size: 18px;
+    margin-left: 0px;
+    font-weight: 400;
+}
+.email{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color:#ffffff;
+    padding: 7px 10px;
+    margin-top: 10px;
+    border: 1px solid #cfcfd0;
+}
+.subscribe-button{
+    width: 170%;
+    float: left;
+    margin-top: 20px;
+}
+.subscribe-button a{
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #15e4d0;
+    text-align: center;
+    padding: 14px 10px;
+    text-transform: uppercase;
+}
+.social-media-icon{
+    width: 100%;
+    float: left;
+    
+}
+.social-media-icon ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+.social-media-icon li{
+    float: left;
+    padding-right: 10px;
+    padding-top: 20px;
+    
+}
+.copyright-section{
+    width: 100%;
+    float: left;
+    height: auto;
+    padding-top: 20px;
+}
+.copy-right-text{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    margin-left: 0px;
+    color:#fff ;
+    text-align: center;
+
 }
